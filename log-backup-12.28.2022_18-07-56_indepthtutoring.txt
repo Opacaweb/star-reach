@@ -1,0 +1,84 @@
+--------------------------------------------------------
+[2022-12-28 18:07:56 +0000] pkgacct started.
+[2022-12-28 18:07:56 +0000] pkgacct version 10 - user : indepthtutoring - tarball: 1 - target mysql : default - split: 0 - incremental: 0 - homedir: 1 - mailman: 1 - backup: 0 - archive version: 4 - running with uid 0
+[2022-12-28 18:07:56 +0000] pkgacct using '/usr/local/cpanel/3rdparty/bin/pigz -6 --processes 1 --blocksize 128 --rsyncable' to compress archives
+[2022-12-28 18:07:56 +0000] pkgacct working dir : /home/10253.BIN_ADMIN_CPANEL_BACKUP_PL__.fe4382c4.tmp/backup-12.28.2022_18-07-56_indepthtutoring
+[2022-12-28 18:07:56 +0000] Copying Reseller Config...[2022-12-28 18:07:56 +0000] Done
+[2022-12-28 18:07:56 +0000] Copying Suspension Info (if needed)...[2022-12-28 18:07:56 +0000] Done
+[2022-12-28 18:07:56 +0000] Copying installed SSL certificates and keys...[2022-12-28 18:07:56 +0000] Performing “ApacheTLS” component....
+[2022-12-28 18:07:56 +0000] Completed “ApacheTLS” component.
+[2022-12-28 18:07:56 +0000] Done
+[2022-12-28 18:07:56 +0000] Copying Domain Keys....[2022-12-28 18:07:56 +0000] Done
+[2022-12-28 18:07:56 +0000] Copying Counter Data....[2022-12-28 18:07:56 +0000] Done
+[2022-12-28 18:07:56 +0000] Copying Bandwidth Data....[2022-12-28 18:07:56 +0000] Performing “Bandwidth” component....
+Summary databases … done!
+[2022-12-28 18:07:58 +0000] Completed “Bandwidth” component.
+[2022-12-28 18:07:58 +0000] Done
+[2022-12-28 18:07:58 +0000] Copying Dns Zones.......in-depthtutoring.com...[2022-12-28 18:07:58 +0000] Done
+[2022-12-28 18:07:58 +0000] Copying Mail files....[2022-12-28 18:07:58 +0000] Done
+[2022-12-28 18:07:58 +0000] Copying proftpd file....[2022-12-28 18:07:58 +0000] Done
+[2022-12-28 18:07:58 +0000] Performing “Logs” component....
+...log file sizes [1193021 byte(s)]......in-depthtutoring.com-bytes_log......demo.in-depthtutoring.com......demo.in-depthtutoring.com-ssl_log......in-depthtutoring.com-ssl_log......in-depthtutoring.com...[2022-12-28 18:07:58 +0000] Completed “Logs” component.
+[2022-12-28 18:07:58 +0000] Copy userdata...[2022-12-28 18:07:58 +0000] Done
+[2022-12-28 18:07:58 +0000] Copy custom virtualhost templates...[2022-12-28 18:07:58 +0000] Done
+[2022-12-28 18:07:58 +0000] Copying mailman lists and archives....Done copying mailman lists and archives.
+[2022-12-28 18:07:58 +0000] Copying homedir.............
+[2022-12-28 18:07:59 +0000] Done
+[2022-12-28 18:07:59 +0000] Performing “Postgresql” component....
+Load watching suspended due to SIGUSR1
+[2022-12-28 18:07:59 +0000] Completed “Postgresql” component.
+[2022-12-28 18:07:59 +0000] Performing “Mysql” component....
+[2022-12-28 18:07:59 +0000] Determining mysql dbs...[2022-12-28 18:07:59 +0000] ...mysqldump version: 5.6.41...[2022-12-28 18:07:59 +0000] ...mysql version: 5.6...[2022-12-28 18:07:59 +0000] Saving mysql privs...[2022-12-28 18:07:59 +0000] Done
+[2022-12-28 18:07:59 +0000] ...Done
+[2022-12-28 18:07:59 +0000] Storing mysql dbs............
+indeptht_database[2022-12-28 18:07:59 +0000] (1379 bytes) 
+indeptht_inde[2022-12-28 18:07:59 +0000] (3197248 bytes) 
+indeptht_inde1[2022-12-28 18:08:01 +0000] (42468898 bytes) 
+roundcube.users,roundcube.identities,roundcube.contacts,roundcube.contactgroups[2022-12-28 18:08:01 +0000] (6852 bytes) 
+roundcube.contactgroupmembers[2022-12-28 18:08:01 +0000] (2405 bytes) 
+[2022-12-28 18:08:01 +0000] ...Done
+[2022-12-28 18:08:01 +0000] Completed “Mysql” component.
+Load watching resumed due to SIGUSR2
+[2022-12-28 18:08:01 +0000] Performing “MysqlRemoteNotes” component....
+[2022-12-28 18:08:01 +0000] Completed “MysqlRemoteNotes” component.
+[2022-12-28 18:08:01 +0000] Copying cpuser file.......[2022-12-28 18:08:01 +0000] Done
+[2022-12-28 18:08:01 +0000] Copying crontab file.......[2022-12-28 18:08:01 +0000] Done
+[2022-12-28 18:08:01 +0000] Performing “Quota” component....
+[2022-12-28 18:08:01 +0000] Completed “Quota” component.
+[2022-12-28 18:08:01 +0000] Performing “Integration” component....
+[2022-12-28 18:08:01 +0000] Completed “Integration” component.
+[2022-12-28 18:08:01 +0000] Performing “AuthnLinks” component....
+[2022-12-28 18:08:01 +0000] Completed “AuthnLinks” component.
+[2022-12-28 18:08:01 +0000] Performing “APITokens” component....
+[2022-12-28 18:08:01 +0000] Completed “APITokens” component.
+[2022-12-28 18:08:01 +0000] Performing “AutoSSL” component....
+[2022-12-28 18:08:01 +0000] Completed “AutoSSL” component.
+[2022-12-28 18:08:01 +0000] Storing Subdomains....
+[2022-12-28 18:08:01 +0000] Done
+[2022-12-28 18:08:01 +0000] Storing Parked Domains....
+[2022-12-28 18:08:01 +0000] Done
+[2022-12-28 18:08:01 +0000] Storing Addon Domains....
+[2022-12-28 18:08:01 +0000] Performing “Password” component....
+[2022-12-28 18:08:01 +0000] Completed “Password” component.
+[2022-12-28 18:08:01 +0000] Performing “DigestShadow” component....
+[2022-12-28 18:08:01 +0000] Completed “DigestShadow” component.
+[2022-12-28 18:08:01 +0000] Copying shell.......[2022-12-28 18:08:01 +0000] Done
+[2022-12-28 18:08:01 +0000] Performing “PublicContact” component....
+[2022-12-28 18:08:01 +0000] Completed “PublicContact” component.
+[2022-12-28 18:08:01 +0000] Performing “MailLimits” component....
+[2022-12-28 18:08:01 +0000] Completed “MailLimits” component.
+[2022-12-28 18:08:01 +0000] Creating Archive ....................................................................................
+................................................................................
+....................
+[2022-12-28 18:16:39 +0000] Done
+[2022-12-28 18:16:39 +0000] pkgacctfile is: /home/10253.BIN_ADMIN_CPANEL_BACKUP_PL__.fe4382c4.tmp/backup-12.28.2022_18-07-56_indepthtutoring.tar.gz
+[2022-12-28 18:16:51 +0000] md5sum is: b3790f8770b10d47cfbe1bc8727a04a4
+[2022-12-28 18:16:51 +0000] 
+[2022-12-28 18:16:51 +0000] size is: 1502525394
+[2022-12-28 18:17:05 +0000] 
+[2022-12-28 18:17:05 +0000] homesize is: 5327417344
+[2022-12-28 18:17:05 +0000] 
+[2022-12-28 18:17:05 +0000] homefiles is: 587412
+[2022-12-28 18:17:05 +0000] pkgacct completed
+pkgacctfile is: /home/indepthtutoring/backup-12.28.2022_18-07-56_indepthtutoring.tar.gz
+--------------------------------------------------------
